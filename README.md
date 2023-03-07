@@ -10,9 +10,8 @@ This app uses the iTextPDF 5 library to extract all the text from a user-selecte
 
 Open Page            |  Permission sheet
 :-------------------------:|:-------------------------:
-<img src="https://gitlab.com/aman043358sagar/Quiz-App/-/raw/master-jetpack-compose/Files/start%20quiz.png" width="246" height="438">  |  <img src="https://gitlab.com/aman043358sagar/Quiz-App/-/raw/master-jetpack-compose/Files/start%20quiz%20black.png" width="246" height="438">
+<img src="https://raw.githubusercontent.com/aman043358sagar/PDF-Reader/master/files/open.jpg" width="246" height="438">  |  <img src="https://raw.githubusercontent.com/aman043358sagar/PDF-Reader/master/files/permission.jpg" width="246" height="438">
 
 PDF Preview             |
-:-------------------------:|:-------------------------:
-<img src="https://gitlab.com/aman043358sagar/Quiz-App/-/raw/master-jetpack-compose/Files/quiz.png" width="246" height="438">  |  <img src="https://gitlab.com/aman043358sagar/Quiz-App/-/raw/master-jetpack-compose/Files/quiz%20black.png" width="246" height="438">
-
+:-------------------------:|
+<img src="https://raw.githubusercontent.com/aman043358sagar/PDF-Reader/master/files/pdf.jpg" width="246" height="438">
