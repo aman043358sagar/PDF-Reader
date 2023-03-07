@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PDF Reader</string>
+    <string name="description">This app reads PDF text aloud\n for listening instead of reading.</string>
+    <string name="permission">Give permission to get started</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ivIllustration"
+        >
+
+        <ImageView
+            android:id="@+id/ivPdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_pdf"
+            app:layout_constraintBottom_toTopOf="@+id/tvPdfReader"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvPdfReader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PDF Reader"
+            android:textSize="32sp"
+            android:textColor="@color/red_500"
+            app:layout_constraintBottom_toTopOf="@+id/tvDescription"
+            app:layout_constraintEnd_toEndOf="@+id/ivPdf"
+            app:layout_constraintStart_toStartOf="@+id/ivPdf"
+            app:layout_constraintTop_toBottomOf="@+id/ivPdf" />
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/description"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/btnOpenPdf"
+            app:layout_constraintEnd_toEndOf="@+id/tvPdfReader"
+            app:layout_constraintStart_toStartOf="@+id/tvPdfReader"
+            app:layout_constraintTop_toBottomOf="@+id/tvPdfReader" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnOpenPdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open Pdf"
+            app:cornerRadius="25dp"
+            android:backgroundTint="@color/red_500"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/tvDescription"
+            app:layout_constraintStart_toStartOf="@+id/tvDescription"
+            app:layout_constraintTop_toBottomOf="@+id/tvDescription" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/ivIllustration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/illustration"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
